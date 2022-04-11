@@ -84,8 +84,8 @@ public class PressureButton
 public class ButtonEventDispatcher : MonoBehaviour
 {
     // Start is called before the first frame update
-    private ButtonEvent eBtnPressed;
-    private ButtonEventEdge eBtnEdge;
+    public ButtonEvent eBtnPressed;
+    public ButtonEventEdge eBtnEdge;
     private PressureButton[] pressureButtons;
     private WaterLevel wl;
 
@@ -170,6 +170,7 @@ public class ButtonEventDispatcher : MonoBehaviour
 
     public ButtonEvent GetEvent()
     {
+        Debug.Log(eBtnPressed);
         return eBtnPressed;
     }
 

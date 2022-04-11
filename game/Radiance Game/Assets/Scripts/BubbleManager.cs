@@ -9,8 +9,9 @@ public class BubbleManager : MonoBehaviour {
     //public float defButtonStrength = 0.5f;
 
     private ButtonEvent button;
-    private GameObject buttonHandler;
+    public GameObject buttonHandler;
     private WaterLevel wl;
+    private bool init = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +22,23 @@ public class BubbleManager : MonoBehaviour {
         }
         wl = GameObject.Find("WaterTank").GetComponent<WaterLevel>();
     }
+    void Update()
+    {
+        if (!init)
+        {
+            InitializeButtonControls();
+        }
+    }
 
     void InitializeButtonControls()
     {
         buttonHandler = GameObject.Find("ButtonHandler");
+        Debug.Log(buttonHandler.GetComponent<ButtonEventDispatcher>().GetEvent());
         button = buttonHandler.GetComponent<ButtonEventDispatcher>().GetEvent();
-        button.AddListener(OnButtonPush);
+        if(button != null){
+            button.AddListener(OnButtonPush);
+            init = true;
+        }
     }
 
     void OnButtonPush(int index, float value)

@@ -2058,7 +2058,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "CellDensity",
     "m_StageCapability": 3,
-    "m_Value": 8.0,
+    "m_Value": 32.0,
     "m_DefaultValue": 5.0,
     "m_Labels": [
         "X"
@@ -4575,7 +4575,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 500.0,
+    "m_Value": 2000.0,
     "m_DefaultValue": 500.0,
     "m_Labels": []
 }
@@ -4821,7 +4821,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 30.0,
+    "m_Value": 120.0,
     "m_DefaultValue": 10.0,
     "m_Labels": []
 }
@@ -4874,7 +4874,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 104.80000305175781,
+    "m_Value": 419.20001220703127,
     "m_DefaultValue": 10.0,
     "m_Labels": []
 }
@@ -6324,7 +6324,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "CellDensity",
     "m_StageCapability": 3,
-    "m_Value": 10.0,
+    "m_Value": 40.0,
     "m_DefaultValue": 5.0,
     "m_Labels": [
         "X"
@@ -10396,7 +10396,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "CellDensity",
     "m_StageCapability": 3,
-    "m_Value": 4.920000076293945,
+    "m_Value": 19.68000030517578,
     "m_DefaultValue": 5.0,
     "m_Labels": []
 }
@@ -11071,7 +11071,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 46.099998474121097,
+    "m_Value": 184.39999389648438,
     "m_DefaultValue": 500.0,
     "m_Labels": []
 }
@@ -11305,9 +11305,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -701.5,
-            "y": 664.5000610351563,
-            "width": 208.0,
+            "x": -701.0,
+            "y": 664.0,
+            "width": 207.99998474121095,
             "height": 326.0
         }
     },
@@ -11882,7 +11882,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "CellDensity",
     "m_StageCapability": 3,
-    "m_Value": 20.0,
+    "m_Value": 80.0,
     "m_DefaultValue": 5.0,
     "m_Labels": [
         "X"
@@ -12937,7 +12937,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "CellDensity",
     "m_StageCapability": 3,
-    "m_Value": 5.0,
+    "m_Value": 20.0,
     "m_DefaultValue": 5.0,
     "m_Labels": [
         "X"
@@ -12954,7 +12954,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 1000.0,
+    "m_Value": 4000.0,
     "m_DefaultValue": 500.0,
     "m_Labels": []
 }

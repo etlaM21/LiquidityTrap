@@ -51,14 +51,16 @@ public class BubblesSound : MonoBehaviour
     void Init()
     {
         InitializeButtonControls();
-        init = true;
     }
 
     void InitializeButtonControls()
     {
         buttonHandler = GameObject.Find("ButtonHandler");
         button = buttonHandler.GetComponent<ButtonEventDispatcher>().GetEventEdge();
-        button.AddListener(OnButtonPush);
+        if(button != null){
+            button.AddListener(OnButtonPush);
+            init = true;
+        }
     }
 
     void OnButtonPush(int index)

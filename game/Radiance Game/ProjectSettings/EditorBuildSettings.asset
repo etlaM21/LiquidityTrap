@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Combo_Jo_Lu_In.unity
+    guid: ba4b611e1d3a98e4bbeed235e6372264
   m_configObjects: {}
